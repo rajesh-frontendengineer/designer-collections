@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.karthika</groupId>
   <artifactId>collections</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -12,7 +12,7 @@
         <version>2.6</version>
         <configuration>
          <finalName>${project.artifactId}</finalName>
-          <outputDirectory>${build.artifact.target}</outputDirectory>
+          <outputDirectory>${build.artifactId.dist}</outputDirectory>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
