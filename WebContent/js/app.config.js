@@ -5,6 +5,7 @@
 
 function appConfig($routeProvider,$locationProvider,$compileProvider){
     $locationProvider.html5Mode(false);
+    $locationProvider.hashPrefix('');
     
     $routeProvider.when('/admin',{
         templateUrl:'/collections/templates/admin/admin.html',
