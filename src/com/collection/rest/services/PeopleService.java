@@ -8,13 +8,18 @@ public class PeopleService {
 	//getperson
 	//deleteperson
 	//edit
-//	@Path("/all")
-//	public void getAll(){
-//		
-//	}
-//	
-//	@Path("/add")
-//	public void addPerson(){
-//		
-//	}
+	
+	@Path("/all")
+	public void getAll(){
+		
+	}
+	
+	@Path("/add")
+	public void addPerson(){
+		
+	}
+	@Path("/edit")
+	public void editPerson(){
+		
+	}
 }

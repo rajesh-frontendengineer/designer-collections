@@ -4,5 +4,13 @@
 
 <div>{{adminCtrl.page}}</div>
 
+<form>
+  <div id="importDataForm" class="form-group" autocomplete="off">
+    <label for="imageUploadInput">Image Upload</label>
+    <input type="file" id="imageUploadInput" ng-model="adminCtrl.imageUploadModel">
+  </div>
+  <button type="submit" class="btn btn-default" ng-click="adminCtrl.S3ImageAWSButton()">Submit</button>
+</form>
+
 
 </div>
