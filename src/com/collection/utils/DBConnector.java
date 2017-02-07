@@ -7,10 +7,11 @@ import java.sql.SQLException;
 public class DBConnector {
 	
 	private final static String USER = "ramya";
-	private final static String PASSWORD = "rajes462";
+	private final static String PASSWORD = "rajesh462";
 	private final static String DB_URL = "jdbc:mysql://designerinstance.craqoxzg5rkj.us-west-2.rds.amazonaws.com:3306/designer";
 	
 	public static Connection connect(){
+		
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Driver Loaded");
